@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="1.css">
+    </head>
+    <body>
+        <div>
+           <table>
+            <tr>    
+            <td>    
+            From: <select id="from" size="1" >
+                   <option value="TL">TL</option>
+                   <option value="USD">USD</option>
+                   <option value="EUR">EUR</option>
+                   <option value="GBP">GBP</option>
+                  </select>
+            </td>
+            <td>
+            To: <select id="to" size="1" >
+                   <option value="TL">TL</option>
+                   <option value="USD">USD</option>
+                   <option value="EUR">EUR</option>
+                   <option value="GBP">GBP</option>
+                  </select>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="symbol"><input type="number" id="fromNum"></div>   
+                </td>
+                <td>
+                </td>				
+            </tr>
+			   </table>
+			
+			<span id="warning"></span>
+        </div><button id="btn">Change</button>
+           
+       <script src="1.js"></script>
+    </body>
+</html>
+
